@@ -6,95 +6,59 @@
       "child": [
         {
           "title": "TH",
-          "tag": "TH"
+          "tag": "TH",
         },
         {
           "title": "Eng",
-          "tag": "Eng"
+          "tag": "Eng",
         }
       ]
     },
     {
-      "title": "group",
+      "title": "หมวดย่อย",
       "tag": "",
       "child": [
         {
-          "title": "รายงาน",
-          "tag": ""
-        },
-        {
-          "title": "ศาสนา",
+          "title": "ทีวี",
           "tag": "",
-          "child": [
+          "child":[
             {
-              "title": "5555555555555",
-              "tag": ""
+              "title": "ถ่ายทอดสด",
+              "tag": "",
+              "child":[
+                { "title":"ฟุตบอล",
+                    "tag":""},
+                {
+                  "title":"ข่าวด่วน",
+                  "tag":""
+                }
+              ]
             },
             {
-              "title": "s2-2",
+              "title": "ย้อนหลัง",
               "tag": "",
-              "child": [
-                {
-                  "title": "sหหหห",
-                  "tag": ""
-                },
-                {
-                  "title": "s2-2-2",
-                  "tag": ""
-                },
-                {
-                  "title": "s2-2-3",
-                  "tag": ""
-                }
+              "child":[
+                {"title":"ข่าวพระราชสำนัก","tag":""},
+                {"title":"คืนความสุข(คสช.)","tag":""}
               ]
             }
           ]
         },
         {
-          "title": "s3",
+          "title": "การเรียนการสอน",
           "tag": "",
           "child": [
             {
-              "title": "9999",
-              "tag": "",
-              "child": [
-                {
-                  "title": "s3-1-1",
-                  "tag": ""
-                },
-                {
-                  "title": "s3-1-2",
-                  "tag": ""
-                }
-              ]
+              "title": "คณิตศาสตร์",
+              "tag": ""
             },
             {
-              "title": "s3-2",
-              "tag": "",
-              "child": [
-                {
-                  "title": "s3-2-1",
-                  "tag": "",
-                  "child": [
-                    {
-                      "title": "s3-2-1-1",
-                      "tag": "",
-                      "child": [
-                        {
-                          "title": "s3-2-1-1-1",
-                          "tag": "",
-                          "child": [
-                            {
-                              "title": "s3-2-1-1-1-1",
-                              "tag": ""
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "title": "ภาษาไทย",
+              "tag": ""
+            },
+            {
+              "title": "นันทนาการ",
+              "tag": ""
             }
           ]
         }
