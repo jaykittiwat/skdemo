@@ -3,117 +3,70 @@
     {
       "title": "defalt",
       "tag": "",
-      "checked":false,
       "child": [
         {
           "title": "TH",
-          "tag": "TH",
-          "checked":false
+          "tag": "TH"
         },
         {
           "title": "Eng",
-          "tag": "Eng",
-          "checked":false
+          "tag": "Eng"
         }
       ]
     },
     {
-      "title": "group",
+      "title": "หมวดย่อย",
       "tag": "",
-      "checked":false,
       "child": [
         {
-          "title": "s1",
+          "title": "ทีวี",
           "tag": "",
-          "checked":false
-        },
-        {
-          "title": "s2",
-          "tag": "",
-          "checked":false,
           "child": [
             {
-              "title": "s2-1",
+              "title": "ถ่ายทอดสด",
               "tag": "",
-              "checked":false
-            },
-            {
-              "title": "s2-2",
-              "tag": "",
-              "checked":false,
               "child": [
                 {
-                  "title": "s2-2-1",
-                  "tag": "",
-                  "checked":false
+                  "title": "ฟุตบอล",
+                  "tag": ""
                 },
                 {
-                  "title": "s2-2-2",
-                  "tag": "",
-                  "checked":false
+                  "title": "ข่าวด่วน",
+                  "tag": ""
+                }
+              ]
+            },
+            {
+              "title": "ย้อนหลัง",
+              "tag": "",
+              "child": [
+                {
+                  "title": "ข่าวพระราชสำนัก",
+                  "tag": ""
                 },
                 {
-                  "tile": "s2-2-3",
-                  "tag": "",
-                  "checked":false
+                  "title": "คืนความสุข(คสช.)",
+                  "tag": ""
                 }
               ]
             }
           ]
         },
         {
-          "title": "s3",
+          "title": "การเรียนการสอน",
           "tag": "",
-          "checked":false,
           "child": [
             {
-              "title": "s3-1",
-              "tag": "",
-              "child": [
-                {
-                  "title": "s3-1-1",
-                  "tag": "",
-                  "checked":false
-                },
-                {
-                  "title": "s3-1-2",
-                  "tag": "",
-                  "checked":false
-                }
-              ]
+              "title": "คณิตศาสตร์",
+              "tag": ""
             },
             {
-              "title": "s3-2",
-              "tag": "",
-              "checked":false,
-              "child": [
-                {
-                  "title": "s3-2-1",
-                  "tag": "",
-                  "checked":false,
-                  "child": [
-                    {
-                      "title": "s3-2-1-1",
-                      "tag": "",
-                      "checked":false,
-                      "child": [
-                        {
-                          "title": "s3-2-1-1-1",
-                          "tag": "",
-                          "checked":false,
-                          "child": [
-                            {
-                              "title": "s3-2-1-1-1-1",
-                              "tag": "",
-                              "checked":false
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "title": "ภาษาไทย",
+              "tag": ""
+            },
+            {
+              "title": "นันทนาการ",
+              "tag": ""
             }
           ]
         }
