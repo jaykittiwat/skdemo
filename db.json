@@ -1,28 +1,29 @@
+
 {
     "list": [
-        {"title":"หมวดหลัก","tag":"","child":[
-            {"title":"ภาษาไทย","tag":""},
-            {"title":"English","tag":""}
+        {"title":"หมวดหลัก","tag":"","slug":"main_case","child":[
+            {"title":"ภาษาไทย","tag":"","slug":"TH"},
+            {"title":"English","tag":"","slug":"ENG"}
         ]},
-        {"title":"หมวดย่อย","tag":"","child":[
-            {"title":"การเรียนการสอน","tag":"","child":[
-                {"title":"ภาษาไทย","tag":""},
-                {"title":"สังคม","tag":""},
-                {"title":"วิทยาศาสตร์","tag":""},
-                {"title":"คณิตศาสตร์","tag":""},
-                {"title":"ศิลปะ","tag":""},
-                {"title":"คณิตศาสตร์","tag":""}
+        {"title":"หมวดย่อย","tag":"","slug":"sub_case","child":[
+            {"title":"การเรียนการสอน","tag":"","slug":"teaching","child":[
+                {"title":"ภาษาไทย","tag":"","slug":"thai_language"},
+                {"title":"สังคม","tag":"","slug":"socia"},
+                {"title":"วิทยาศาสตร์","tag":"","slug":"science","child":[]},
+                {"title":"คณิตศาสตร์","tag":"","slug":"mat","child":[]},
+                {"title":"ศิลปะ","tag":"","slug":"art"}
+               
             ]},
-            {"title":"ทีวี","tag":"","child":[
-                {"title":"ถ่ายทอดสด","tag":"","child":[
-                    {"title":"กีฬา","tag":"","child":[
-                        {"title":"ฟุตบอล","tag":""},
-                        {"title":"โอลิมปิก","tag":""} 
+            {"title":"ทีวี","tag":"","slug":"tv","child":[
+                {"title":"ถ่ายทอดสด","tag":"","slug":"live","child":[
+                    {"title":"กีฬา","tag":"","slug":"sport","child":[
+                        {"title":"ฟุตบอล","tag":"","slug":"football"},
+                        {"title":"โอลิมปิก","tag":"","slug":"olympics"} 
                     ]}
                 ]},
-                {"title":"เทปบันทึกย้อนหลัง","tag":"","child":[
-                    {"title":"คืนความสุข","tag":""},
-                    {"title":"สารคดี","tag":""}
+                {"title":"เทปบันทึกย้อนหลัง","tag":"","slug":"record","child":[
+                    {"title":"คืนความสุข","tag":"","slug":"happy"},
+                    {"title":"สารคดี","tag":"","slug":"documentary"}
                 ]}
             ]}
         ]}
